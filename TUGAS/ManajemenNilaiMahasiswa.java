@@ -17,7 +17,7 @@ public class ManajemenNilaiMahasiswa {
             System.out.println("5. Keluar");
             System.out.print("Pilih menu: ");
             pilihan = input.nextInt();
-            input.nextLine(); // newline
+            input.nextLine(); 
 
             switch (pilihan) {
                 case 1:
@@ -69,7 +69,7 @@ public class ManajemenNilaiMahasiswa {
         while (true) {
             System.out.print("Nilai " + jenis + " : ");
             nilai = input.nextDouble();
-            input.nextLine(); // newline
+            input.nextLine();
             if (nilai >= 0 && nilai <= 100) break;
             System.out.println("Nilai harus antara 0 - 100!");
         }
