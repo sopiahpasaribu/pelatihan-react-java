@@ -46,12 +46,11 @@ public class PenerapanOOPMahasiswaDosen {
             System.out.println();
         }
 
-        System.out.println("===== Daftar Dosen =====");
+        System.out.println("====== Daftar Dosen ======");
         for (String nip : mapDosen.keySet()) {
             mapDosen.get(nip).display();
             System.out.println();
         }
-
         scanner.close();
     }
 }
